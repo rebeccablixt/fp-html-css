@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Header + navbar */
+#header {
+	width: 100%;
+	height: 300px;
+	background-color: blanchedalmond;
+	background-image: url(./assets/yellow-flowers.jpg);
+	background-size: cover;
+	background-position: center;
+	border-bottom-right-radius: 15%;
+	border-bottom-left-radius: -15%;
+}
+
+#nav {
+	padding: 10px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgba(245, 245, 245, 0.5);
+	top: 0;
+}
+
+.nav-link {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.heading {
+	margin: 10px auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.heading-container {
+	text-align: center;
+}
+
+p {
+	margin: 20px;
+}
+
+.heisenburg {
+	margin: 20px auto;
+	width: 70%;
+	padding: 10px;
+	border: 4px dotted hotpink;
+	border-radius: 7px;
+}
+
+.hodor {
+	margin: 20px auto;
+	width: 60%;
+	padding: 10px;
+	border: 4px dashed darkcyan;
+	border-radius: 15px;
+}
+
+details {
+	cursor: crosshair;
+	display: inline;
+	background-color: whitesmoke;
+}
+
+.trump {
+	padding: 5px;
+	background-color: aquamarine;
+}
