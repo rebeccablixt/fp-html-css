@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+#header {
+	width: 100%;
+	height: auto;
+	background-color: blanchedalmond;
+	padding: 15px;
+}
+
+.nav {
+	padding: 10px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-link {
+}
+
+.heading {
+	margin: 10px auto;
+}
